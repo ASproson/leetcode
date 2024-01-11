@@ -13,7 +13,7 @@
 
 ## Solution 1 (small array)
 
-By utilizing a [`set`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) we can immediately gain access to all unique elements inside of an array in O(1): 
+By utilizing a [`set`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) we can immediately gain access to all unique elements inside of an array in O(1) (at the cost of creating the set in O(n)): 
 
 > _`Set` objects are collections of values. A value in the set may only occur once._
 
